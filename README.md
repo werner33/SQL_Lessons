@@ -6,7 +6,7 @@
   
   If you would like to review basic SQL, you can always return to the Core curriculum in [Module 4](https://github.com/joinpursuit/Pursuit-Core-Web/blob/master/full_stack_express/README.md).
   
-  Through out this two part class, we will lean heavily on [W3's Sql lessons and live database](https://www.w3schools.com/sql/default.asp). 
+  Through out this two part class, we will lean heavily on [W3's Sql lessons and live database](https://www.w3schools.com/sql/default.asp). NOTE: You'll want to access W3 through Chrome. Some issues have been reported with Safari.
   
 
 ### Basic Review of SQL
