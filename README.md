@@ -43,7 +43,7 @@ Challenge: Write a query that returns any customers where the contactName has an
 
 `SELECT * FROM users WHERE accountTotal BETWEEN 1000 AND 9999;`
 
-Challenge: On the order details table, write a query that returns all order 
+Challenge: On the order details table, write a query that returns all orders where the quantity is between 17 and 20.  
 
 ### Grouping
 
