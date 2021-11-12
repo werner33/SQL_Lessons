@@ -26,9 +26,20 @@ And to review SQL syntax quickly, our query is usually composed by starting with
 
 We won't spend too much time reviewing these more simple queries, but you can practice with each of them here: 
 
-(SELECT)[https://www.w3schools.com/sql/sql_select.asp]
-(UPDATE)[https://www.w3schools.com/sql/sql_update.asp]
-(INSERT INTO)[https://www.w3schools.com/sql/sql_insert.asp]
-(DELETE)[https://www.w3schools.com/sql/sql_delete.asp]
+[SELECT](https://www.w3schools.com/sql/sql_select.asp) 
+[UPDATE](https://www.w3schools.com/sql/sql_update.asp)
+[INSERT INTO](https://www.w3schools.com/sql/sql_insert.asp) 
+[DELETE](https://www.w3schools.com/sql/sql_delete.asp)
+
+
+### Fun SQL Resources 
+
+[W3 SQL](https://www.w3schools.com/sql/default.asp) - This is a real treasure as a reference. 
+
+[SQL Murder Mystery](https://mystery.knightlab.com/) -  a great free game with lots of practice in more complex SQL queries. 
+
+[SQL ZOO](https://sqlzoo.net/wiki/SQL_Tutorial) - lots of practice starting with very easy SQL to much more advanced. 
+
+[SQL Police Department](https://sqlpd.com/) - This game only has a few levels for free and can feel a bit elementary, but fun none-the-less.
 
 
