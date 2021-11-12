@@ -43,7 +43,15 @@ Challenge: Write a query that returns any customers where the contactName has an
 
 `SELECT * FROM users WHERE accountTotal BETWEEN 1000 AND 9999;`
 
-Challenge: 
+Challenge: On the order details table, write a query that returns all order 
+
+### Grouping
+
+When we want to see certain records collapsed into a single row, for example, when we would like to see the number of users in a certain country, we can use `GROUP BY`, passing a column. All records that have that column in common will be grouped together. 
+
+[GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp)
+
+Challenge: On the W3 orderDetail table, write a query that gets the number of products in each order. 
 
 
 ### Fun SQL Resources 
