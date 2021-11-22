@@ -64,7 +64,10 @@ Challenge: On the W3 orderDetail table, write a query that gets the number of pr
 
 ### More Exercises for W3
 
-1. The boss has offered a prize to whichever employee packed more items in the month of August of 1996. Please write a query that shows all employees by their id numbers and how many total items (not unique items, but overall quantity) that they packed in August from most to least packed.  
+1. The boss has offered a prize to whichever employee packed more items in the month of August of 1996. Please write a query that shows all employees by their first and last names and how many total items (not unique items, but overall quantity) that they packed in August from most to least packed.  
+
+![Screen Shot 2021-11-22 at 4 43 40 PM](https://user-images.githubusercontent.com/692461/142939566-383e5bf9-32a6-412a-b54e-9693907f3db1.png)
+
 
 
 ### Articles on SQL, Query Management and ORMS
