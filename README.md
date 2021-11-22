@@ -6,8 +6,17 @@
   
   If you would like to review basic SQL, you can always return to the Core curriculum in [Module 4](https://github.com/joinpursuit/Pursuit-Core-Web/blob/master/full_stack_express/README.md).
   
-  Through out this two part class, we will lean heavily on [W3's Sql lessons and live database](https://www.w3schools.com/sql/default.asp). NOTE: You'll want to access W3 through Chrome. Some issues have been reported with Safari.
+  Throughout this two part class, we will lean heavily on [W3's Sql lessons and live database](https://www.w3schools.com/sql/default.asp). NOTE: You'll want to access W3 through Chrome. Some issues have been reported with Safari.
   
+### SQL as it Relates to the Web
+  
+Given that we come at SQL as application developers, it is helpful to review how SQL relates to an overall application. First, SQL is a full language that we use when communicating with the database. However much, you use SQL, it's instructive to remember that there are whole career paths such as Data Science and Database Administration where SQL is a core skill. It is a large and robust language. 
+  
+As a web developer, we may write SQL queries, but we also have the option of including one or more pieces of software to abstract the SQL and keep us working in a more familiar language. Software that allows us to access our data in a language other than SQL are called Object Relational Mapping (ORM) programs. These exist in every web stack. With Node for example, we might use Sequelize or with Ruby, we could use Active Record. 
+
+For a developer that would like to have more control over how a SQL query is composed, they might choose to use software generally called a query manager or composer. An example of this with Node would be pg-promise. With this, we are still using javascrip but when it comes to writing the actual query, it is esentially SQL with a bit of string interpolation. We need to understand SQL better to work effectively with this tool, but it gives a developer more control over how a query is structured. 
+
+There is no right or wrong here, only tradeoffs in how a web application is interacting with a database. One of the main tradeoffs is whether an ORM should be engaged to make the interations with data to be as easy as possible for the developer or whether a deeper knowledge of SQL is expected with the hope that is results in a lighter application with more efficient queries. 
 
 ### Basic Review of SQL
 
