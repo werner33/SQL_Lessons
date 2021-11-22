@@ -64,7 +64,7 @@ Challenge: On the W3 orderDetail table, write a query that gets the number of pr
 
 ### More Exercises for W3
 
-1. In the shipping department, they offered a reward for whomever shipped the most items between 
+1. The boss has offered a prize to whichever employee packed more items in the month of August of 1996. Please write a query that shows all employees by their id numbers and how many total items (not unique items, but overall quantity) that they packed in August from most to least packed.  
 
 
 ### Articles on SQL, Query Management and ORMS
