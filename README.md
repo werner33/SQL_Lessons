@@ -54,6 +54,10 @@ When we want to see certain records collapsed into a single row, for example, wh
 Challenge: On the W3 orderDetail table, write a query that gets the number of products in each order. 
 
 
+### Articles on SQL, Query Management and ORMS
+
+[Pros and Cons of ORMs](https://blog.logrocket.com/why-you-should-avoid-orms-with-examples-in-node-js-e0baab73fa5/)
+
 ### Fun SQL Resources 
 
 [W3 SQL](https://www.w3schools.com/sql/default.asp) - This is a real treasure as a reference. 
