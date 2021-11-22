@@ -62,10 +62,15 @@ When we want to see certain records collapsed into a single row, for example, wh
 
 Challenge: On the W3 orderDetail table, write a query that gets the number of products in each order. 
 
+### More Exercises for W3
+
+1. In the shipping department, they offered a reward for whomever shipped the most items between 
+
 
 ### Articles on SQL, Query Management and ORMS
 
-[Pros and Cons of ORMs](https://blog.logrocket.com/why-you-should-avoid-orms-with-examples-in-node-js-e0baab73fa5/)
+[Why You Should Avoid ORMs](https://blog.logrocket.com/why-you-should-avoid-orms-with-examples-in-node-js-e0baab73fa5/)
+[ORMS are Awesome](https://chanind.github.io/2020/01/13/awesome-orms.html)
 
 ### Fun SQL Resources 
 
