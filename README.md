@@ -72,7 +72,8 @@ Challenge: On the W3 orderDetail table, write a query that gets the number of pr
 
 ### Articles on SQL, Query Management and ORMS
 
-[Why You Should Avoid ORMs](https://blog.logrocket.com/why-you-should-avoid-orms-with-examples-in-node-js-e0baab73fa5/)
+[Why You Should Avoid ORMs](https://blog.logrocket.com/why-you-should-avoid-orms-with-examples-in-node-js-e0baab73fa5/). 
+
 [ORMS are Awesome](https://chanind.github.io/2020/01/13/awesome-orms.html)
 
 ### Fun SQL Resources 
