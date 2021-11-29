@@ -27,7 +27,7 @@ Let's quickly review one of the bedrocks of any web application CRUD: CREATE, RE
 | CREATE | POST  | INSERT INTO  |
 | READ   | GET   | SELECT       |
 | UPDATE | PUT   | UPDATE       |
-| DELETE | DELETE| DELETE FROM      |
+| DELETE | DELETE| DELETE FROM  |
 
 And to review SQL syntax quickly, our query is usually composed by starting with one of these key words. For example: 
 
@@ -64,6 +64,23 @@ Challenge: On the W3 orderDetail table, write a query that gets the number of pr
 
 ### Joins
 
+When we are composing a database, data will inevitably be spread across multiple tables. These tables will be related to each other through shared data. For example, we may have a User Table:
+
+|  UserId  | Name  | Commits    |
+|------- |-------|--------------|
+| 01     | Jenny |  1           |
+| 02     | Jose  |  2          |
+| 03     | Magnolia   | 0      |
+| 04     |   Rosa|  1          |
+
+And a Commits table:
+
+|  CommitId  | UserId  | CommitMessage    |
+|------- |-------|--------------|
+| 01     | 01 |  Added analytics for the product detail page       |
+| 02     | 02  |  Fixed Bug in adding digital products to cart          |
+| 03     | 02   | Implemented new design for home page     |
+| 04     |   04|  Handled Bug in User Profile          |
 
 
 ### More Exercises for W3
