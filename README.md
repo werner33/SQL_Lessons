@@ -82,6 +82,69 @@ And a Commits table:
 | 03     | 02   | Implemented new design for home page     |
 | 04     |   04|  Handled Bug in User Profile          |
 
+So here we have two tables that have a clear relationship one to the other: Users have 0 or more commits. We can see the number of commits that a User has made without accessing the Commits table, but if we want to see the messages we need to `JOIN` the two tables. We can do that like this:
+
+``` SQL
+
+SELECT Users.Name, Commit.id, Commit.CommitMessage
+FROM Users
+JOIN Commits
+ON Users.UserId = Commits.UserId
+```
+
+And our output will look like this: 
+
+|  Name  | CommitId | CommitMessage    |
+|------- |-------|--------------|
+| Jenny     | 01 |  Added analytics for the product detail page          |
+| Jose     | 02  |  Fixed Bug in adding digital products to cart          |
+| Jose    | 03   | Implemented new design for home page      |
+| Rosa    |   04|    Handled Bug in User Profile      |
+
+We've used `JOIN` to connect this data in a helpful way. As with any other query, we can further refine this by sorting or filtering the data. 
+
+## Types of Joins
+
+When joining two tables, we might want to pull from records that only have data present on the two tables, or some other selection. You can think of this like Venn diagram where we may want to pull only from records that join with another, ie. all Users who Have one or more Commits. This is called an `INNER JOIN` since it looks at the part of the Venn diagram where the circles overlap. 
+
+Let's imagine we want to find all Users with theit related Commit messages, but we still want to include Users, like Magnolia in the table above, who have made no commits. We can use a `LEFT JOIN`. ie give me all users and include their Commit information if there is any:
+
+``` SQL
+SELECT User.Name, Commit.CommitMessage
+FROM Users
+LEFT JOIN Commits
+ON User.id = Commit.UserId;
+
+```
+
+|  Name  | CommitId | CommitMessage    |
+|------- |-------|--------------|
+| Jenny     | 01 |  Added analytics for the product detail page          |
+| Jose     | 02  |  Fixed Bug in adding digital products to cart          |
+| Jose    | 03   | Implemented new design for home page      |
+| Magnolia    | null   | null      |
+| Rosa    |   04|    Handled Bug in User Profile      |
+
+Magnolia has been included because she is part of the 'Left' part of our join, the Users, even though there is nothing on the 'right' that corresponds to her UserId. 
+
+Here is a handy chart to visualize different types of Joins:
+
+![SQL_Joins](https://user-images.githubusercontent.com/692461/143931929-a3524469-c0ff-4b51-901a-a98f66c74858.jpeg)
+
+W3's dataset has lots of related tables that you can join to get different data. Try some of the exersizes below: 
+
+### JOIN Exercises
+
+1) Create a query to join Customers with their respective Orders and create a table with: OrderDate, CustomerName and OrderId.
+
+2) Create a query to join Order with OrderDetail, getting the sum of the quantity of total items in the order.
+
+## Questions about Joins
+
+1) Given a database with Customers and Orders, where each order has a CustomerId, What kind of join would you use to find all Customers who have never placed an order? 
+
+2) What is the difference between a Left Join and a Right Join? 
+
 
 ### More Exercises for W3
 
