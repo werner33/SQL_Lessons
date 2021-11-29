@@ -137,7 +137,15 @@ W3's dataset has lots of related tables that you can join to get different data.
 
 1) Create a query to join Customers with their respective Orders and create a table with: OrderDate, CustomerName and OrderId.
 
+The beginning of the result will look like this: 
+
+<img width="1049" alt="Screen Shot 2021-11-29 at 3 51 10 PM" src="https://user-images.githubusercontent.com/692461/143941277-16abfe50-c3b8-444a-8a06-7153bfac8742.png">
+
 2) Create a query to join Order with OrderDetail, getting the sum of the quantity of total items in the order.
+
+The beginning of the result will look like this: 
+
+<img width="1053" alt="Screen Shot 2021-11-29 at 3 54 29 PM" src="https://user-images.githubusercontent.com/692461/143941575-e3432495-a671-4b99-997c-3bf45796d8fe.png">
 
 ## Questions about Joins
 
